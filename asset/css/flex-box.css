@@ -1,5 +1,4 @@
 body{
-	
 	margin:0;
 }
 
@@ -22,11 +21,10 @@ nav ul li a{
 }
 
 header{
-	background: url('../bg-home.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background: url('../bg-home.jpg'), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
 	background-blend-mode: overlay;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+	background-size: cover; 
+  	height: 100vh;
 }
 
 .text-center{
@@ -70,6 +68,12 @@ header{
 	color: orange;
 }
 
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
 .flex-column-center{
   display: flex;
   flex-direction: column;
@@ -98,4 +102,17 @@ header{
 	text-decoration:none;
 	padding:0 15px;
 	margin-top: 9px;
+}
+
+.flex-column-container{
+	display: flex;
+  	align-items: stretch;
+}
+
+.flex-grow-3{
+	flex-grow: 3;
+}
+
+.flex-grow-3{
+	flex-grow: 3;
 }
