@@ -1,6 +1,5 @@
 body{
-	background: url('../bg-home.jpg');
-	background-size: cover;
+	
 	margin:0;
 }
 
@@ -22,14 +21,12 @@ nav ul li a{
 	color: white;
 }
 
-.overlay{
-	position: absolute;
-	width: 100%;
+header{
+	background: url('../bg-home.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background-blend-mode: overlay;
+	background-size: cover;
 	height: 100%;
-	top: 0;
-	left: 0;
-	background-color: rgba(0,0,0,0.6);
-	z-index: 2;
+	width: 100%;
 }
 
 .text-center{
