@@ -2,3 +2,32 @@
 	margin: 0;
 	padding: 0;
 }
+
+html{
+	background-color: white;
+}
+
+body{
+    height: 100%;
+    width :100%;
+}
+
+nav{
+	display: block;
+}
+
+.container{
+	margin: 10px 20%;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.flex{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	background-color: red;
+	border-radius: 10px;
+}
