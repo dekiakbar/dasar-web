@@ -1,5 +1,6 @@
 body{
-	background-color:rgba(200,200,200,0.3);
+	background-color:rgba(200,200,200,0.2);
+	margin: 0;
 }
 
 .wrapper{
@@ -9,12 +10,12 @@ body{
 .container{
 	margin: auto;
 	width: 33%;
-	padding: 10px;
+	padding: 5px;
 }
 
 .logo-container{
 	margin: 0 auto;
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -37,7 +38,6 @@ body{
 
 .flex-header{
 	text-align: center;
-	padding: 5px;
 }
 
 .description{
@@ -45,20 +45,36 @@ body{
 	padding: 15px;
 }
 
-.image img{
-	height: 180px;
-	width: 80%;
+.image{
+	display: flex;
+  	justify-content: center;
+	background: url('../images/bonus/potluck.jpg');
+	height: 200px;
+	width: 90%;
+	margin:10px auto;
+}
+
+.text-image{
+	background-color: white;
+	padding: 10px;
+	margin: auto 5%;
 }
 
 .button{
+	display: flex;
+  	justify-content: center;
 	height: 50px;
 	background-color: #00CB79;
 	margin:0 70px;
 }
 
 .text-center{
+	padding: 10px;
+	margin: auto 5%;
+}
+
+.link{
 	text-align:center;
 	text-decoration: none;
 	color: black;
-	margin-top: 33px;
 }
