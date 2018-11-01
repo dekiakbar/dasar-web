@@ -35,6 +35,10 @@ header{
 	color: white;
 }
 
+.text-underline{
+	text-decoration:underline;
+}
+
 .container{
 	margin: 0 50px;
 }
@@ -108,14 +112,35 @@ header{
 	display: flex;
   	align-items: stretch;
   	width: 100%;
+  	margin: 10px auto;
 }
 
-.flex-grow-7{
-	flex-grow: 7;
+.flex-grow-14{
+	flex-grow: 14;
 	width: 100px;
 }
 
 .flex-grow-1{
 	flex-grow: 1;
 	width: 100px;
+}
+
+.img-150{
+	height: 150px;
+	width: 150px;
+}
+
+.artikel-more{
+	text-decoration:none;
+	border-radius: 5px;
+	background-color: orange;
+	height: 35px;
+	width: 65px;
+}
+
+.artikel-more a{
+	display: inline-block;
+	text-decoration:none;
+	padding:0 15px;
+	margin-top: 9px;
 }
