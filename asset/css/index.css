@@ -17,17 +17,54 @@ nav{
 }
 
 .container{
-	margin: 10px 20%;
+	width: 60%;
+	margin: auto;
 }
 
 .flex-container{
 	display: flex;
+  	flex-wrap: wrap;
 }
 
 .flex{
+
+	display: flex;
 	width: 100px;
 	height: 100px;
 	margin: 5px;
-	background-color: red;
 	border-radius: 10px;
+	justify-content: center;
 }
+
+.text-center{
+	margin:auto;
+	min-height: 10px;
+	min-width: 10px;
+	text-align: center;
+}
+
+.text-center a{
+	text-decoration: none;
+	color: white;
+}
+
+.red{background-color: #943126;}
+.red-1{background-color: #B03A2E;}
+.red-2{background-color: #CB4335;}
+.red-3{background-color: #CB4335;}
+.red-4{background-color: #E74C3C;}
+.red-5{background-color: #EC7063;}
+
+.violet{background-color: #633974;}
+.violet-1{background-color: #76448A;}
+.violet-2{background-color: #884EA0;}
+.violet-3{background-color: #9B59B6;}
+.violet-4{background-color: #AF7AC5;}
+.violet-5{background-color: #C39BD3;}
+
+.purple{background-color: #5B2C6F;}
+.purple-1{background-color: #6C3483;}
+.purple-2{background-color: #7D3C98;}
+.purple-3{background-color: #8E44AD;}
+.purple-4{background-color: #A569BD;}
+.purple-5{background-color: #BB8FCE;}
