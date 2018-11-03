@@ -1,0 +1,22 @@
+section div:nth-child(1) > h3{
+	color: red;
+}
+section div:nth-child(2) h3{
+	color: blue;
+}
+
+section div:nth-child(2) h3+p,section div:nth-child(3) h3+p{
+	font-style: italic;
+}
+
+.firstLetter+span{
+	font-weight: bold;
+}
+
+#btn{
+	text-decoration: none;
+	color:white;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 5px;
+}
