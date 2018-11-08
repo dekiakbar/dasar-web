@@ -21,13 +21,14 @@ section div:nth-child(2) h3+p,section div:nth-child(3) h3+p{
 
 .firstLetter+span{
 	font-weight: bold;
+	color: red;
 }
 
 #btn{
 	text-decoration: none;
 	color:white;
 	background-color: blue;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 5px;
 }
 
