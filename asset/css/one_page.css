@@ -133,3 +133,22 @@ header{
 .margin-vertical{
 	margin: 50px auto;
 }
+
+.privacy{
+	margin-left: -50px;
+}
+
+.privacy-bg{
+	background: url('../images/bg-default.jpeg');
+	background-size: cover;
+	width: 80%;
+	height: 500px;
+}
+
+.flex-end{
+	display: flex;
+	text-align: center;
+	align-self: flex-end;
+	width: 80%;
+	background-color: white;
+}
