@@ -1,5 +1,6 @@
 body{
 	margin:0;
+	font-family: 'Open Sans'
 }
 
 ul{
@@ -41,6 +42,11 @@ header{
 
 .container{
 	margin: 0 50px;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
 }
 
 .flex-container{
@@ -118,4 +124,12 @@ header{
 
 .red{
 	color:red;
+}
+
+.flex-1{
+	flex-grow: 2;
+}
+
+.margin-vertical{
+	margin: 50px auto;
 }
