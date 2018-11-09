@@ -157,13 +157,18 @@ header{
 
 .immigration{
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 100px;
 	background-color: #FF6640;
 	height: 100vh;
 }
 
+.immigration-margin-top{
+	padding-top: 50px;
+}
+
 .middle{
   	align-items: center;
+  	padding:10px;
 }
 
 .margin-left-15{
@@ -193,7 +198,8 @@ header{
 .img-immigration-right{
 	margin-right: -49px;
 	margin-top: -20px;
-	height: 70%;
+	height: 100%;
+	width: 100%;
 }
 
 .full-bg{
