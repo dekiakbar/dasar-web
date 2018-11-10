@@ -142,6 +142,10 @@ header{
 	margin: 50px auto;
 }
 
+.padding-intro{
+	padding-right: 40px;
+}
+
 .arrow{
 	font-size: 20px;
 	text-align:center;
