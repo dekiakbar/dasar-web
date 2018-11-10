@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+}
+
+.content{
+	width: 100%;
+}
+
+.display-1{
+	background-color:blue;
+	height: 100vh;
+}
+
+.overflow-1{
+	top: 100%;
+	right: 0;
+	position: absolute;
+	height: 20%;
+	width: 20%;
+	background-color: green;
+}
+
+.display-2{
+	background-color:skyblue;
+	height: 100vh;
+	position: relative;
+	
+}
+
+.overflow-2{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	height: 10%;
+	width:  10%;
+	background-color: yellow;
+}
+
+button{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	color: blue;
+	height: 10%;
+	width: 10%;
+	border-radius: 10px;
+}
+
+
