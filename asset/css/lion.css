@@ -1,5 +1,7 @@
 body{
 	margin: 0;
+	font-family: "Open Sans";
+	font-size: 14px;
 }
 
 ul{
@@ -38,6 +40,8 @@ li a{
 .section-1{
 	grid-area: section-1;
 	width: 100%;
+	background: url("../../asset/lion/img/bg-header.png");
+	background-size: cover;
 }
 .section-2{
 	grid-area: section-2;
@@ -59,42 +63,6 @@ li a{
 .container{
 	margin: 0 10%;
 }
-
-/*.navbar{
-	width: 100%;
-	display: grid;
-	grid-template-columns: 300px 100px 100px;
-	grid-template-rows: 30px; 
-	justify-content: space-between;
-	align-items: center;
-  	text-align: center;
-}
-
-.brand{
-	align-self: center;
-}
-
-.login {
-	justify-self:end;
-	align-self: center;
-	border: 1px solid;
-	padding: 5px 10px;
-	border-color: white;
-	background-color: white;
-}
-
-.login a{
-	color: red;
-}
-
-.regis{
-	justify-self:end;
-	align-self: center;
-	border: 1px solid;
-	padding: 5px 10px;
-	border-color: white;
-}
-*/
 
 .navbar{
 	width: 100%;
@@ -119,7 +87,7 @@ li a{
 	justify-self:end;
 	align-self: center;
 	border: 1px solid;
-	padding: 8px 30px;
+	padding: 8px 35px;
 	border-color: white;
 	background-color: white;
 }
@@ -132,6 +100,27 @@ li a{
 	justify-self:end;
 	align-self: center;
 	border: 1px solid;
-	padding: 8px 30px;
+	padding: 8px 35px;
 	border-color: white;
+}
+
+.intro{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: auto;
+	margin-top: 100px;
+}
+
+.intro-text{
+	width: 95%;
+	margin-top: 25%;
+	color: white;
+}
+
+.intro-header{
+	width: 70%;
+}
+
+.intro-btn{
+	
 }
