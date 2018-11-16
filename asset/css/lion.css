@@ -1,6 +1,10 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../lion/fonts/Roboto-Regular.ttf");
+}
 body{
 	margin: 0;
-	font-family: "Open Sans";
+	font-family: Roboto;
 	font-size: 14px;
 }
 
@@ -41,7 +45,10 @@ li a{
 	grid-area: section-1;
 	width: 100%;
 	background: url("../../asset/lion/img/bg-header.png");
-	background-size: cover;
+	background-size: 100% 100%;
+	background-position: center;
+	padding-bottom: 100px;
+
 }
 .section-2{
 	grid-area: section-2;
@@ -50,6 +57,7 @@ li a{
 .section-3{
 	grid-area: section-3;
 	width: 100%;
+	background-color: white;
 }
 .section-4{
 	grid-area: section-4;
@@ -108,13 +116,13 @@ li a{
 	display: grid;
 	grid-template-columns: 40% 60%;
 	grid-template-rows: auto;
-	margin-top: 100px;
+	padding: 100px 0;
 }
 
 .intro-text{
-	width: 95%;
-	margin-top: 25%;
+	width: 100%;
 	color: white;
+	margin-top: 20%;
 }
 
 .intro-header{
@@ -122,5 +130,49 @@ li a{
 }
 
 .intro-btn{
-	
+	background-color: white;
+	color: red;
+	width: 30%;
+	height: 10%;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.intro-btn a{
+	display: inline-block;
+	text-decoration: none;
+	color: red;
+	padding: 10px;	
+}
+
+.intro-logo{
+	text-align: center;
+}
+
+.service{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+    "header header header"
+    "service-1 service-2 service-3";
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+}
+
+.header{
+	grid-area: header;
+}
+
+.service-1{
+	grid-area:service-1;
+}
+
+.service-2{
+	grid-area:service-2;
+}
+
+.service-3{
+	grid-area:service-3;
 }
