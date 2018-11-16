@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+}
+
+ul{
+	padding-inline-start: 0;
+}
+li{
+	list-style:none; 
+	float: left;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-areas: 
+	'menu'
+	'section-1'
+	'section-2'
+	'section-3'
+	'section-4'
+	'footer';
+}
+.menu{
+	grid-area: menu;
+	width: 100%;
+	background-color:red;
+}
+.section-1{
+	grid-area: section-1;
+	width: 100%;
+}
+.section-2{
+	grid-area: section-2;
+	width: 100%;
+}
+.section-3{
+	grid-area: section-3;
+	width: 100%;
+}
+.section-4{
+	grid-area: section-4;
+	width: 100%;
+}
+.footer{
+	grid-area: footer;
+	width: 100%;
+}
+
+.container{
+	margin: 0 10%;
+}
+
+.navbar{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 300px 100px 100px;
+	grid-template-rows: 30px; 
+	justify-content: space-between;
+	align-items: center;
+  	text-align: center;
+}
+
+.brand{
+	align-self: center;
+}
+
+.login {
+	justify-self:end;
+	align-self: center;
+	border: 1px solid;
+	padding: 5px 10px;
+	border-color: white;
+	background-color: white;
+}
+.login a{
+	color: red;
+}
+
+.regis{
+	justify-self:end;
+	align-self: center;
+	border: 1px solid;
+	padding: 5px 10px;
+	border-color: white;
+}
+
+
+
