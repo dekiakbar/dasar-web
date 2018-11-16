@@ -226,8 +226,54 @@ li a{
 	grid-area: testi-1;
 }
 
+.testi-1 hr{
+	align-self:start;
+	width: 5%;
+	color: red;
+	border: 3px solid;
+}
+
 .testi-2{
 	grid-area: testi-2;
+}
+
+.testi-2 .card{
+	background-color: #ffffff;
+	display: grid;
+	grid-template-columns: 15% auto auto auto;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"comment comment comment comment"
+	"avatar name profession rate";
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.comment{
+	grid-area:comment;
+}
+
+.avatar{
+	grid-area:avatar;
+}
+
+.avatar img{
+	height: 40px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.name{
+	grid-area: name;
+}
+
+.proffesion{
+	grid-area: proffesion;
+}
+
+.rate{
+	grid-area: rate;
 }
 
 .testi-3{
@@ -236,4 +282,6 @@ li a{
 
 .arrow{
 	grid-area: arrow;
+	text-align:center;
 }
+
