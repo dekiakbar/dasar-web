@@ -163,6 +163,12 @@ li a{
 
 .header{
 	grid-area: header;
+	align-self:center;
+	text-align: center;
+}
+
+.header p{
+	color: #bbbbbb;
 }
 
 .service-1{
