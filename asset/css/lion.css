@@ -164,6 +164,7 @@ li a{
 	align-items: center;
 	background-color: #ffffff;
 	margin-top: -150px;
+	margin-bottom: 100px;
 }
 
 .header{
@@ -185,19 +186,25 @@ li a{
 
 .service-1{
 	grid-area:service-1;
+	box-shadow: 0px 12px 9px -7px rgba(0,0,0,0.14);
+	margin:0 40px;
 }
 .service-2{
 	grid-area:service-2;
+	box-shadow: 0px 12px 9px -7px rgba(0,0,0,0.14);
+	margin:0 40px;
 }
 
 .service-3{
 	grid-area:service-3;
+	box-shadow: 0px 12px 9px -7px rgba(0,0,0,0.14);
+	margin:0 40px;
 }
 .service-1,.service-2,.service-3{
 	align-self:center;
 	text-align: center;
 	background-color: #ffffff;
-	padding:50px;
+	padding:50px 10px;
 	color: #bbbbbb;
 }
 
@@ -207,7 +214,7 @@ li a{
 	background-color: transparent;
 }
 
-.service h3{
+.service h3,.testi-1 h3{
 	color: #000033;
 }
 
@@ -220,38 +227,51 @@ li a{
     "arrow arrow arrow";
 	justify-content: center;
 	align-items: center;
+	margin:100px 0px;
+	color: #bbbbbb;
 }
 
 .testi-1{
 	grid-area: testi-1;
+	margin-top: 60px;
 }
 
 .testi-1 hr{
 	align-self:start;
-	width: 5%;
+	width: 15%;
 	color: red;
 	border: 3px solid;
+	float: left;
 }
 
 .testi-2{
 	grid-area: testi-2;
+	margin:0 15px;
 }
 
-.testi-2 .card{
-	background-color: #ffffff;
+.testi-3{
+	grid-area: testi-3;
+	margin:0 15px;
+}
+
+.card{
+	background:url("../lion/img/bg-testi.jpg");
 	display: grid;
-	grid-template-columns: 15% auto auto auto;
+	grid-template-columns: 15% auto auto 20%;
 	grid-template-rows: auto;
 	grid-template-areas: 
 	"comment comment comment comment"
 	"avatar name profession rate";
 	justify-content: center;
 	align-items: center;
-	
+	padding: 25px;
+	text-align:center;
+	box-shadow: -8px 9px 23px -4px rgba(0,0,0,0.2);
 }
 
 .comment{
 	grid-area:comment;
+	padding: 25px 30px;
 }
 
 .avatar{
@@ -266,6 +286,7 @@ li a{
 
 .name{
 	grid-area: name;
+	margin-left: 5px;
 }
 
 .proffesion{
@@ -274,14 +295,27 @@ li a{
 
 .rate{
 	grid-area: rate;
+	text-color: yellow;
 }
 
-.testi-3{
-	grid-area: testi-3;
+.rate-star{
+	color: yellow;
+	margin:-5px;
+	font-size: 18px;
 }
 
 .arrow{
 	grid-area: arrow;
 	text-align:center;
+	margin-top: 30px;
+}
+
+.arrow span{
+	color: #ffffff;
+	font-size: 18px;
+	border:2px solid;
+	padding: 4px 10px;
+	border-radius: 30px;
+	margin:5px;
 }
 
