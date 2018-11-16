@@ -277,6 +277,7 @@ li a{
 .comment{
 	grid-area:comment;
 	padding: 25px 30px;
+	margin-bottom: 30px;
 }
 
 .avatar{
@@ -370,6 +371,7 @@ li a{
 .header-agen{
 	grid-area:header-agen;
 	text-align:center;
+	margin-bottom: 100px;
 }
 
 .agen-1{
