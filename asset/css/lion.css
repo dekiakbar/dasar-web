@@ -68,12 +68,12 @@ li a{
 	background-color: red;
 	background: url("../lion/img/bg-daftar-agen.png");
 	background-size: cover;
-	height: 100vh;
 }
 
 .footer{
 	grid-area: footer;
 	width: 100%;
+	background-color: red;
 }
 
 .container{
@@ -332,10 +332,11 @@ li a{
     "agen-1 agen-2 agen-3"
     "agen-4 agen-5 agen-6"
     "agen-7 agen-8 agen-9"
-    "agen-10 agen-11 agen-12";
+    "agen-10 agen-11 agen-12"
+	"pagination pagination pagination";
 	justify-content: center;
 	align-items: center;
-	margin:100px 0px;
+	margin:100px 0px 50px;
 }
 
 .text{
@@ -349,16 +350,20 @@ li a{
 
 .text img{
 	grid-area:img;
+	height: 80px;
+	width: 80px;
 }
 
-.text h6{
+.text h4{
 	grid-area: title;
 	margin:0;
+	color: #777777;
 }
 
 .text p{
 	grid-area:text;
 	margin:0;
+	color: #bbbbbb;
 }
 
 .header-agen{
@@ -368,53 +373,94 @@ li a{
 
 .agen-1{
 	grid-area:agen-1;
+	margin:30px 5px;
 }
 
 .agen-2{
 	grid-area:agen-2;
+	margin:30px 5px;
 }
 
 .agen-3{
 	grid-area:agen-3;
+	margin:30px 5px;
 }
 
 .agen-4{
 	grid-area:agen-4;
+	margin:30px 5px;
 }
 
 .agen-5{
 	grid-area:agen-5;
+	margin:30px 5px;
 }
 
 .agen-6{
 	grid-area:agen-6;
+	margin:30px 5px;
 }
 
 .agen-7{
 	grid-area:agen-7;
+	margin:30px 5px;
 }
 
 .agen-8{
 	grid-area:agen-8;
+	margin:30px 5px;
 }
 
 .agen-9{
 	grid-area:agen-9;
+	margin:30px 5px;
 }
 
 .agen-10{
 	grid-area:agen-10;
+	margin:30px 5px;
 }
 
 .agen-11{
 	grid-area:agen-11;
+	margin:30px 5px;
 }
 
 .agen-12{
 	grid-area:agen-12;
+	margin:30px 5px;
 }
 
-.agen-1 img{
-	height: 80px;
-	width: 80px;
+.pagination{
+	grid-area:pagination;
+	margin-top: 50px;
+}
+
+.pagination a{
+	text-decoration:none;
+	color: #bbbbbb;
+	margin:5px;
+}
+
+.pagination .active{
+	color: #ff2222;
+}
+
+.footer-grid{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: auto; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	margin:20px 0;
+}
+
+.copyright a{
+	color: #dddddd;
+	text-decoration:none;
+	
 }
