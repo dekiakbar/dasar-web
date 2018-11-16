@@ -65,6 +65,10 @@ li a{
 .section-4{
 	grid-area: section-4;
 	width: 100%;
+	background-color: red;
+	background: url("../lion/img/bg-daftar-agen.png");
+	background-size: cover;
+	height: 100vh;
 }
 
 .footer{
@@ -174,11 +178,11 @@ li a{
 	padding:55px;
 }
 
-.header p{
+.header p,.header-agen p{
 	color: #bbbbbb;
 }
 
-.header hr{
+.header hr,.header-agen hr{
 	width: 5%;
 	color: red;
 	border: 3px solid;
@@ -214,7 +218,7 @@ li a{
 	background-color: transparent;
 }
 
-.service h3,.testi-1 h3{
+.service h3,.testi-1 h3,.header-agen h3{
 	color: #000033;
 }
 
@@ -319,3 +323,98 @@ li a{
 	margin:5px;
 }
 
+.agen{
+	display: grid;
+	grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+    "header-agen header-agen header-agen"
+    "agen-1 agen-2 agen-3"
+    "agen-4 agen-5 agen-6"
+    "agen-7 agen-8 agen-9"
+    "agen-10 agen-11 agen-12";
+	justify-content: center;
+	align-items: center;
+	margin:100px 0px;
+}
+
+.text{
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"img title"
+	"img text";
+}
+
+.text img{
+	grid-area:img;
+}
+
+.text h6{
+	grid-area: title;
+	margin:0;
+}
+
+.text p{
+	grid-area:text;
+	margin:0;
+}
+
+.header-agen{
+	grid-area:header-agen;
+	text-align:center;
+}
+
+.agen-1{
+	grid-area:agen-1;
+}
+
+.agen-2{
+	grid-area:agen-2;
+}
+
+.agen-3{
+	grid-area:agen-3;
+}
+
+.agen-4{
+	grid-area:agen-4;
+}
+
+.agen-5{
+	grid-area:agen-5;
+}
+
+.agen-6{
+	grid-area:agen-6;
+}
+
+.agen-7{
+	grid-area:agen-7;
+}
+
+.agen-8{
+	grid-area:agen-8;
+}
+
+.agen-9{
+	grid-area:agen-9;
+}
+
+.agen-10{
+	grid-area:agen-10;
+}
+
+.agen-11{
+	grid-area:agen-11;
+}
+
+.agen-12{
+	grid-area:agen-12;
+}
+
+.agen-1 img{
+	height: 80px;
+	width: 80px;
+}
