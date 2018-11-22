@@ -166,7 +166,7 @@ header{
 }
 
 .affiliate-margin{
-	margin-left: 70px; 
+	margin-left: 50px; 
 }
 
 .affiliate-image{
@@ -361,9 +361,34 @@ header{
 	display: none;
 }
 
+/*Responsive @media screen*/
+
 @media screen and (max-width: 1200px) {
 	#member-twelve,#member-eleven,#member-ten{
 		display: none !important;
+	}
+
+	.affiliate-image{
+		height: 70%;
+		width: auto;
+	}
+
+	.privacy{
+		margin-top: 100px;
+		margin-right: -20px;
+	}
+
+	.privacy-bg{		
+		width: 90%;
+		height: 600px;
+	}
+
+	.content-privacy h1{
+		font-size: 1.8em;
+	}
+
+	.content-privacy p{
+		font-size: 14px;
 	}
 }
 
@@ -392,6 +417,32 @@ header{
 	.margin-right-arrow{
 		margin-left: 1px;
 	}
+
+	.affiliate-margin{
+		margin-left: 25px;
+	}
+
+	.affiliate-image{
+		height: 60%;
+		width: auto;
+	}
+
+	.privacy-bg{		
+		width: 100%;
+		height: 600px;
+	}
+
+	.content-privacy{
+		margin: 90px 50px;
+	}
+
+	.content-privacy h1{
+		font-size: 1.5em;
+	}
+
+	#privacy-image div{
+		margin:0 5px; 
+	}
 }
 
 @media screen and (max-width: 850px) and (min-width: 320px){
@@ -409,4 +460,31 @@ header{
 	#member-twelve,#member-eleven,#member-ten,#member-nine,#member-eight,#member-seven{
 		display: none !important;
 	}
+
+	.affiliate-margin{
+		margin-left: 10px;
+	}
+
+	.affiliate-image{
+		height: 50%;
+		width: auto;
+	}
+
+	.privacy{
+		margin-top: 90px;
+		margin-right: -20px;
+	}
+
+	.content-privacy{
+		margin: 70px 40px;
+	}
+	
+	#privacy-image{
+		width: 115%;
+	}
+
+	#privacy-image div{
+		margin:0 15px; 
+	}
+
 }
