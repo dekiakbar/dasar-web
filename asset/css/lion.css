@@ -11,6 +11,7 @@ body{
 ul{
 	padding-inline-start: 0;
 }
+
 li{
 	list-style:none; 
 	float: left;
@@ -66,7 +67,7 @@ li a{
 .section-4{
 	grid-area: section-4;
 	width: 100%;
-	background-color: #e20000;
+	/*background-color: #e20000;*/
 	background: url("../lion/img/bg-daftar-agen.png");
 	background-size: cover;
 }
@@ -119,6 +120,16 @@ li a{
 	border: 1px solid;
 	padding: 8px 35px;
 	border-color: white;
+}
+
+.regis:hover{
+	color:red;
+	background-color: white;
+}
+
+.regis:hover a{
+	color:red;
+	background-color: white;
 }
 
 .intro{
@@ -191,26 +202,24 @@ li a{
 
 .service-1{
 	grid-area:service-1;
-	box-shadow: 0px 12px 9px -7px rgba(0,0,0,0.14);
-	margin:0 40px;
 }
 .service-2{
 	grid-area:service-2;
-	box-shadow: 0px 12px 9px -7px rgba(0,0,0,0.14);
-	margin:0 40px;
+	
 }
 
 .service-3{
 	grid-area:service-3;
-	box-shadow: 0px 12px 9px -7px rgba(0,0,0,0.14);
-	margin:0 40px;
 }
+
 .service-1,.service-2,.service-3{
 	align-self:center;
 	text-align: center;
 	background-color: #ffffff;
 	padding:50px 10px;
 	color: #bbbbbb;
+	box-shadow: 0px 9px 20px  rgba(0,0,0,0.2);
+	margin:0 40px;
 }
 
 .service-1 img,.service-2 img,.service-3 img{
@@ -262,7 +271,7 @@ li a{
 .card{
 	background:url("../lion/img/bg-testi.jpg");
 	display: grid;
-	grid-template-columns: 15% auto auto 20%;
+	grid-template-columns: 15% auto auto 25%;
 	grid-template-rows: auto;
 	grid-template-areas: 
 	"comment comment comment comment"
@@ -306,7 +315,7 @@ li a{
 
 .rate-star{
 	color: yellow;
-	margin:-5px;
+	margin:-2px;
 	font-size: 18px;
 }
 
@@ -323,6 +332,19 @@ li a{
 	padding: 4px 10px;
 	border-radius: 30px;
 	margin:5px;
+}
+
+.arrow-link{
+	color: white;
+	text-decoration:none;
+}
+
+.arrow span:hover{
+	background-color: white;
+}
+
+.arrow span:hover .arrow-link{
+	color: red;
 }
 
 .agen{
@@ -449,6 +471,10 @@ li a{
 	color: #ff2222;
 }
 
+.pagination a:hover{
+	color: red;
+}
+
 .footer-grid{
 	width: 100%;
 	display: grid;
@@ -466,4 +492,65 @@ li a{
 	color: #dddddd;
 	text-decoration:none;
 	
+}
+
+@media screen and (max-width: 1200px) {
+    .service{
+		display: grid;
+		grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+		grid-template-rows: auto;
+		grid-template-areas: 
+	    "header header header"
+	    "service-1 service-1 service-1"
+	    "service-2 service-2 service-2"
+	    "service-3 service-3 service-3";
+		justify-content: center;
+		align-items: center;
+		background-color: #ffffff;
+		margin-top: -150px;
+		margin-bottom: 100px;
+	}
+
+	.testi{
+		display: grid;
+		grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+		grid-template-rows: auto;
+		grid-template-areas: 
+	    "testi-1 testi-1 testi-1"
+	    "testi-2 testi-2 testi-2"
+	    "testi-3 testi-3 testi-3"
+	    "arrow arrow arrow";
+		justify-content: center;
+		align-items: center;
+		margin:100px 0px;
+		color: #bbbbbb;
+	}
+
+	.testi-1,.testi-2,.testi-3{
+		margin:20px 0; 
+	}
+
+	.agen{
+		display: grid;
+		grid-template-columns: 20% 40% 40%;
+		grid-template-rows: auto;
+		grid-template-areas: 
+	    "header-agen header-agen header-agen"
+	    "agen-1 agen-1 agen-1"
+	    "agen-2 agen-2 agen-2"
+	    "agen-3 agen-3 agen-3"
+	    "agen-4 agen-4 agen-4"
+	    "agen-5 agen-5 agen-5"
+	    "agen-6 agen-6 agen-6"
+	    "agen-7 agen-7 agen-7"
+	    "agen-8 agen-8 agen-8"
+	    "agen-9 agen-9 agen-9"
+	    "agen-10 agen-10 agen-10"
+	    "agen-11 agen-11 agen-11"
+	    "agen-12 agen-12 agen-12"
+		"pagination pagination pagination";
+		justify-content: center;
+		align-items: center;
+		margin:100px 0px 50px;
+	}
 }
