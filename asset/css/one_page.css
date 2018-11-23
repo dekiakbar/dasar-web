@@ -252,7 +252,8 @@ header{
 	background:url('../bg-home.jpg'), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
 	background-blend-mode: overlay;
 	background-size: cover; 
-  	height: 100vh;
+  	height: auto;
+  	padding-bottom: 100px;
 }
 
 .full-bg  .container{
@@ -274,7 +275,7 @@ header{
 
 .report{
 	background-color:rgba(241, 243, 245, 0.9);
-	height: 100vh;
+	height: auto;
 }
 
 .report .container{
@@ -390,6 +391,14 @@ header{
 	.content-privacy p{
 		font-size: 14px;
 	}
+
+	.immigration{
+		height: auto;
+	}
+
+	.immigration .flex-66{
+		margin-bottom:20px;
+	}
 }
 
 @media screen and (max-width: 945px) {
@@ -443,6 +452,18 @@ header{
 	#privacy-image div{
 		margin:0 5px; 
 	}
+
+	#immigration .flex-33{
+		display: none;
+	}
+
+	#immigration .flex-66{
+		width:100%;
+	}
+
+	#immigration .immigration-text{
+		width:100%;
+	}
 }
 
 @media screen and (max-width: 850px) and (min-width: 320px){
@@ -462,7 +483,7 @@ header{
 	}
 
 	.affiliate-margin{
-		margin-left: 10px;
+		margin-left: 8px;
 	}
 
 	.affiliate-image{
@@ -485,6 +506,38 @@ header{
 
 	#privacy-image div{
 		margin:0 15px; 
+	}
+	
+	#national-immigrant .flex-container,#report .flex-container,#footer .flex-container{
+		display: flex;
+  		flex-direction: column;
+  		height: auto;
+	}
+
+	#national-immigrant .padding-intro{
+		margin:15px 0;
+	}
+
+	#national-immigrant h2,#footer .flex-container{
+		text-align: center;
+	}
+	
+	#report .flex-container,#footer .flex-container{
+		justify-content: center;
+		align-items: center;
+	}
+
+	#report .report-box{
+		width: 70%;
+	}
+	
+	#footer .our-team{
+		flex-direction: inherit;
+	}
+
+	#footer .footer-head{
+		margin:15px 0;
+		width: 50%;
 	}
 
 }
