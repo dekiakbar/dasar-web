@@ -464,6 +464,18 @@ header{
 	#immigration .immigration-text{
 		width:100%;
 	}
+
+	#footer .social-media{
+		width:25%;
+	}
+
+	#footer .full-link{
+		width:50%;
+	}
+
+	#footer .last-link{
+		width:25%;
+	}
 }
 
 @media screen and (max-width: 850px) and (min-width: 320px){
@@ -540,4 +552,8 @@ header{
 		width: 50%;
 	}
 
+	#footer .last-footer{
+		flex-direction: inherit;
+	}
+	
 }
