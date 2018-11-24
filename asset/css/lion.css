@@ -6,6 +6,7 @@ body{
 	margin: 0;
 	font-family: Roboto;
 	font-size: 14px;
+	width: 100%;
 }
 
 ul{
@@ -553,4 +554,27 @@ li a{
 		align-items: center;
 		margin:100px 0px 50px;
 	}
+
+	.section-1 .intro-logo img{
+		height: 350px;
+		width: auto;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.intro{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: auto;
+		padding: 100px 0;
+	}
+	
+	.right{
+		justify-content: end;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 30px;
+		font-size: 12px;
+	}
+
 }

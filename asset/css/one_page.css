@@ -1,6 +1,7 @@
 body{
 	margin:0;
-	font-family: 'Open Sans'
+	font-family: 'Open Sans';
+	width: 100%;
 }
 
 ul{
@@ -478,7 +479,7 @@ header{
 	}
 }
 
-@media screen and (max-width: 850px) and (min-width: 320px){
+@media screen and (min-width: 500px) and (max-width: 850px){
 	#who-we-are-container{
 		display: flex;
 	  	flex-direction: column;
@@ -490,7 +491,7 @@ header{
 		margin:10px 0px;
 	}
 	
-	#member-twelve,#member-eleven,#member-ten,#member-nine,#member-eight,#member-seven{
+	#member-twelve,#member-eleven,#member-ten,#member-nine,#member-eight,#member-seven,#member-six,#member-five{
 		display: none !important;
 	}
 
@@ -499,7 +500,7 @@ header{
 	}
 
 	.affiliate-image{
-		height: 50%;
+		height: 30%;
 		width: auto;
 	}
 
@@ -550,6 +551,95 @@ header{
 	#footer .footer-head{
 		margin:15px 0;
 		width: 50%;
+	}
+
+	#footer .last-footer{
+		flex-direction: inherit;
+	}
+	
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+	#who-we-are-container{
+		display: flex;
+	  	flex-direction: column;
+	  	height: auto;
+	}
+
+	#who-we-are-container .flex-50{
+		width: 100%;
+		margin:10px 0px;
+	}
+	
+	#member-twelve,#member-eleven,#member-ten,#member-nine,#member-eight,#member-seven,#member-six,#member-five,#member-four{
+		display: none !important;
+	}
+
+	.affiliate-margin{
+		margin-left: 8px;
+	}
+
+	.affiliate-image{
+		height: 30%;
+		width: auto;
+	}
+
+	.privacy{
+		margin-top: 90px;
+		margin-right: -20px;
+		margin-left: 0;
+	}
+
+	.content-privacy{
+		margin: 70px 40px;
+	}
+	
+	#privacy-image{
+		width: 100%;
+		display: flex;
+  		flex-direction: column;
+  		height: auto;
+  		text-align: center; 
+	}
+	
+	#privacy-image .flex-1{
+		width: 100%;
+	}
+	
+	#national-immigrant .flex-container,#report .flex-container,#footer .flex-container{
+		display: flex;
+  		flex-direction: column;
+  		height: auto;
+	}
+
+	#national-immigrant .padding-intro{
+		margin:15px 0;
+	}
+
+	#national-immigrant h2,#footer .flex-container{
+		text-align: center;
+	}
+	
+	#report .flex-container,#footer .flex-container{
+		justify-content: center;
+		align-items: center;
+	}
+
+	#report .report-header{
+		width: 100%;
+	}
+
+	#report .report-box{
+		width: 100%;
+	}
+	
+	#footer .our-team{
+		flex-direction: inherit;
+	}
+
+	#footer .footer-head{
+		margin:15px 0;
+		width: 100%;
 	}
 
 	#footer .last-footer{
