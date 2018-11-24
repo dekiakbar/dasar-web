@@ -564,6 +564,7 @@ header{
 		display: flex;
 	  	flex-direction: column;
 	  	height: auto;
+	  	width: 100%;
 	}
 
 	#who-we-are-container .flex-50{
@@ -644,6 +645,10 @@ header{
 
 	#footer .last-footer{
 		flex-direction: inherit;
+	}
+
+	#footer .footer-link{
+		margin:0 5px;
 	}
 	
 }
