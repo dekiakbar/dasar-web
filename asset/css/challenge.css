@@ -58,3 +58,28 @@ body{
 	width: 100%;
 	border-radius: 3px;
 }
+
+.rate{
+	font-size: 14px;
+	margin:5px 10px;
+}
+
+.intro{
+	padding-top: 5px;
+}
+
+.content{
+	padding: 0px 15px;
+}
+
+.intro .col-lg-12 p{
+	margin-bottom:5px;
+}
+
+.intro .col-lg-12 p i{
+	width: 11px;
+	height:14px;
+}
+.intro-text{
+	padding: 0px 10px; 
+}
