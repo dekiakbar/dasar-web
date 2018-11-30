@@ -1,7 +1,8 @@
 body{
-	background-color: #dddddd;
+	background-color: #eeeeee;
 	font-family: "Open Sans";
 	font-size: 14px;
+	color: #777777;
 }
 .center{
 	display: flex;
@@ -82,4 +83,16 @@ body{
 }
 .intro-text{
 	padding: 0px 10px; 
+}
+
+.map{
+	border-left: 1px solid #dddddd;
+}
+
+.map h6,.map iframe{
+	padding-left: 15px;
+}
+
+.description{
+	padding-bottom: 10px;
 }
