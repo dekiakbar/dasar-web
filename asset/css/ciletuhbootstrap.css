@@ -1,0 +1,27 @@
+body{
+	background-color: #eeeeee;
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #777777;
+}
+
+.center{
+	display: flex;
+	text-align: center;
+	justify-content: space-around !important;
+	align-items: center;
+}
+
+.margin{
+	margin: 30px auto;
+	width: 60%;
+}
+
+.logo{
+	width: auto;
+	height: 50px;
+}
+
+.margin-center{
+	margin:0 auto;
+}
