@@ -93,7 +93,6 @@ nav{
 	background: url('../images/ciletuh/3.jpg'), linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
 	background-blend-mode: overlay;
 	background-size: cover; 
-  	height: 100vh; 
 }
 
 /*Event*/
@@ -107,6 +106,10 @@ nav{
 	font-weight: bold;
 }
 
+.event-row{
+	margin:60px auto;
+}
+
 .event-grid-container{
 	display: grid;
 	grid-template-columns: 24.5% 1% 24.5% 50%;
@@ -115,11 +118,11 @@ nav{
     "event-date event-line event-img event-list-header"
     "event-date event-line event-img event-text";
     grid-column-gap: 10px;
-    align-items: center;
 }
 
-.date{
+.event-date{
 	grid-area: event-date;
+	align-self:center;
 }
 
 .event-line{
@@ -129,10 +132,12 @@ nav{
 
 .event-img{
 	grid-area: event-img;
+	align-self:center;
 }
 
 .event-list-header{
 	grid-area: event-list-header;
+	align-self:center;
 }
 
 .event-text{
@@ -149,4 +154,28 @@ nav{
 	white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.btn-more-event{
+	margin-bottom: 80px;
+}
+
+/*Product*/
+.product{
+	background-color: #ffffff;
+}
+.full-bg{
+	background: url('../images/ciletuh/3.jpg'), linear-gradient(rgba(150,150,150,0.6),rgba(150,150,150,0.6));
+	background-blend-mode: overlay;
+	background-size: cover; 
+	height: 100vh;
+}
+
+.product-header{
+	margin:50px auto;
+	width: 30%;
+}
+
+.product-header h1{
+	font-weight: bold;
 }
