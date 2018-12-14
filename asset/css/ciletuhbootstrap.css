@@ -1,10 +1,14 @@
 body{
 	background-color: #eeeeee;
-	font-family: "Open Sans";
+	font-family: "PT Serif";
 	font-size: 14px;
 	color: #777777;
 }
 
+nav{
+	font-family: "Open Sans";
+	font-size: 14px;
+}
 .center{
 	display: flex;
 	text-align: center;
@@ -62,3 +66,43 @@ body{
 	padding:10px 5px;
 }
 
+/*about*/
+
+.about{
+	padding:90px 210px;
+	line-height: 2;
+}
+
+.about .about-title{
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.about .about-title h1{
+	width: 50%;
+	margin:0 auto;
+	font-weight: bold;
+}
+
+.btn-more{
+	padding:5px 40px;
+	margin-top: 10px;
+}
+
+.event{
+	background: url('../images/ciletuh/3.jpg'), linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
+	background-blend-mode: overlay;
+	background-size: cover; 
+  	height: 100vh; 
+}
+
+/*Event*/
+.event-header{
+	margin:0 auto;
+	width: 30%;
+	padding:50px 0px;
+}
+
+.event-header h1{
+	font-weight: bold;
+}
