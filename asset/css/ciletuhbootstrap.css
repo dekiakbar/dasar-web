@@ -1,5 +1,5 @@
 body{
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	font-family: "PT Serif";
 	font-size: 14px;
 	color: #777777;
@@ -216,4 +216,64 @@ nav{
 	white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+/*lodgin*/
+.logding{
+	background-color: #ffffff;
+}
+
+.lodging-header{
+	margin:20px 0px;
+}
+
+.lodging-badge{
+	border:1px solid;
+	border-radius: 50px;
+	font-size: 15px;
+	text-decoration: none;
+	margin:10px;
+}
+
+.lodging-badge span{
+	margin:10px 20px;
+}
+
+.lodging-badge span i{
+	font-size: 20px;
+}
+
+.lodging-active{
+	color:#555555;
+}
+
+.lodging div.rate span{
+	margin:0px 3px;
+	font-size: 17px;
+}
+
+.lodging .scrollable{
+	text-align: center;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  width: 75%;
+  overflow-y: scroll; 
+}
+
+.iframe-container {
+  	overflow: hidden;
+  	padding-top: 56.25%;
+  	position: relative;
+}
+
+.iframe-container iframe {
+   	border: 0;
+   	height: 100%;
+   	left: 0;
+   	position: absolute;
+   	top: 0;
+   	width: 100%;
 }
